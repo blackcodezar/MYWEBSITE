@@ -1,0 +1,238 @@
+body{
+    font-size: 21px;
+    margin: auto;
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #ff00e6;
+
+
+}
+.container{
+    display: grid;
+  grid-template-columns: repeat(1fr,1fr 1fr  );
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    
+
+
+}
+
+header{
+    width: auto;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+   
+}
+.nav{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 20; 
+    line-height: 80px;
+    
+}
+.social-icon{
+    width: 80px;
+    height: 80px;
+margin-top: 10px;}
+a{
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 10px 10px;
+    color: white;
+}
+
+
+h2{
+    color: #ff00e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+
+}
+span{
+    color: aqua;
+}
+section{
+
+    width:auto;
+    height: 800px;
+    margin: auto;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+
+}
+.imag{
+    width: auto;
+    height: 700px;
+    margin-left: 50px;
+}
+.bio{
+   
+    justify-content: center;
+    align-items: center;
+    padding: 25px 25px 25px;
+}
+.profesion{
+font-size: 60px;
+margin-bottom: 50px;
+}
+
+
+h1{
+    margin: auto;
+    font-size: 120px;
+    color: #FFFFFF;
+}
+p{
+    width: 700px;
+    color: #ff00e6;
+}
+button{
+    width: 100px;
+    height:50px;
+   background-color: aqua;
+   border-radius: 10px;
+}
+.cards{
+display: grid;
+grid-template-columns: 1fr;
+grid-area: 25px 25px;
+    width:auto;
+    height: 800px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+h3{ 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 100px;
+    margin-bottom: 10px;
+ 
+}
+
+.contenedor-card{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    height: auto;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+
+
+}
+
+.card1{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    border:3px solid;
+    border-color:  chartreuse;
+}
+.card2{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    border:3px solid;
+    border-color: rgb(0, 247, 255);
+}
+
+.card3{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    margin: 50px 50px 50px 50px;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    border:3px solid;
+    border-color: rgb(255, 0, 238);
+}
+h4{
+    color:  #ffffff;
+}
+.Biografía{
+    font-size: 150px;
+}
+.formula{
+display: block;
+margin: auto; 
+padding: 5px;
+
+}
+.formu{
+    display: block;
+    margin: auto; 
+
+
+
+
+ 
+ 
+}
+
+.formulario{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(49, 49, 49);
+    display: block;
+    position: absolute;
+    left: 35%;
+    margin: 20px 20px 20px 2px;
+   
+}
+
+input{
+    width: 600px;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+textarea{
+    width: 600px;
+    max-width: 600px;
+    max-height: 200px;
+    box-sizing: border-box;
+}
+h5{
+    text-align: center;
+    justify-content: center;
+margin: auto;
+font-size: 100px;}
+footer{
+    width: auto;
+    height: 100px;
+    background-color: #ff00e6;
+}
+a:hover{
+    color: #ff00e6;
+}
+
+/*
+
+/*
